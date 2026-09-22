@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- WOrk On more unigque abilties and add a unique unit-->
 <GameData>
 	<Players>
 		<Row>
@@ -9,6 +10,7 @@
 			<CivilizationIcon>ICON_CIVILIZATION_FELINE</CivilizationIcon>
 			<LeaderName>LOC_LEADER_JASPER_KITTY_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_JASPER_KITTY</LeaderIcon>
+			
 			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_FELINE_NAME</CivilizationAbilityName>
 			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_FELINE_DESCRIPTION</CivilizationAbilityDescription>
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_FELINE</CivilizationAbilityIcon>
@@ -17,12 +19,39 @@
 			<LeaderAbilityIcon>ICON_LEADER_JASPER_KITTY</LeaderAbilityIcon>
 			<Portrait>LEADER_JASPER_KITTY_NEUTRAL</Portrait>
 		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_GARFIELD</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_FELINE_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_FELINE</CivilizationIcon>
+			<LeaderName>Garfield</LeaderName>
+			<LeaderIcon>ICON_LEADER_GARFIELD</LeaderIcon>
+
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_FELINE_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_FELINE_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_FELINE</CivilizationAbilityIcon>
+			<LeaderAbilityName>Eat</LeaderAbilityName>
+			<LeaderAbilityDescription>+2 food in cities</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_GARFIELD</LeaderAbilityIcon>
+			<Portrait>LEADER_JASPER_KITTY_NEUTRAL</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
 			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>BUILDING_LITTER_BOX</Type>
+			<Name>LOC_BUILDING_LITTER_BOX_NAME</Name>
+			<Description>LOC_BUILDING_LITTER_BOX_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_LITTER_BOX</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_GARFIELD</LeaderType>
 			<Type>BUILDING_LITTER_BOX</Type>
 			<Name>LOC_BUILDING_LITTER_BOX_NAME</Name>
 			<Description>LOC_BUILDING_LITTER_BOX_DESCRIPTION</Description>

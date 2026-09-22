@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="TRAIT_LEADER_GARFIELD_EAT" Kind ="KIND_TRAIT"/>
+	</Types>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_GARFIELD_EAT" Name="Eat" Description="+2 food in cities"/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_Garfield"
+             TraitType="TRAIT_LEADER_GARFIELD_EAT"/>
+	</LeaderTraits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_GARFIELD_EAT"
+             ModifierId="GARFIELD_EAT"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row ModifierId="GARFIELD_EAT"
+             ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="GARFIELD_EAT"
+			Name ="YieldType"
+			Value="YieldGold"
+		/>
+		<Row ModifierId="GARFIELD_EAT"
+             Name="Amount"
+             Value="2"/>
+	</ModifierArguments>
+</GameData>

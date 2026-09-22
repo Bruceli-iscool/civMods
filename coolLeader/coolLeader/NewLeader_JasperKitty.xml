@@ -2,6 +2,7 @@
 <GameData>
 	<Types>
 		<Row Type="LEADER_JASPER_KITTY" Kind="KIND_LEADER" />
+		<Row Type="LEADER_GARFIELD" Kind="KIND_LEADER"/>
 	</Types>
 
 	<Leaders>
@@ -10,10 +11,15 @@
 			<Name>LOC_LEADER_JASPER_KITTY_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<Row>
+			<LeaderType>LEADER_GARFIELD</LeaderType>
+			<Name>"Garfield"</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_JASPER_KITTY" Quote="I hate dogs cats are better"/>
+		<Row LeaderType="LEADER_GARFIELD" Quote="Mondays are bad and Lasagna is good."/>
 	</LeaderQuotes>
-	
 </GameData>

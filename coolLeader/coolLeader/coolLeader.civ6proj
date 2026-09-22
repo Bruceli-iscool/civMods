@@ -29,6 +29,9 @@
     <Content Include="NewLeader_Config.xml" />
     <Content Include="NewLeader_ConfigText.xml" />
     <Content Include="NewLeader_Felines.xml" />
+    <Content Include="NewLeader_GamePlay.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="NewLeader_Icons.xml" />
     <Content Include="NewLeader_JasperKitty.xml" />
     <Content Include="NewLeader_LitterBox.xml" />
